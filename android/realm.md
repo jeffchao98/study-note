@@ -1,14 +1,14 @@
 # Realm Study Note
 
 ## Outline
-This study note is the conclude content when conduct a pre-research on Realm by implement the sample code in Android(Java).
+This study note is base on the experience when conduct a pre-research on Realm by implement the related sample code in Android(Java).
 
-In this article, we will study the characteristic of realm by compare with the way of using SQLite.
+In this article, we will study the characteristic of realm by reference the common usage of SQLite.
 
 ## Summary
-In SQLite, the developer MUST understand the SQL grammar, so the developer can compose the correct SQL statements, in addition to let the flow can execute SQL features such as create table, query, upgrade table,...
+In SQLite, the developer MUST understand the SQL grammar, in order to compose the correct SQL statements, in addition to make the flow can execute SQL features correctly such as create table, query, upgrade table,...
 
-In Realm, the developer only need to understand the keyword of SQL statement, because the library already prepare the APIs for frequently used SQL command
+In Realm, the developer only need to understand the keyword of SQL statement, because the library already prepare the APIs for frequently used SQL command, however, which also means if the api did not exist yet, the developer can not use the SQL feature in Realm.
 
 ## Basic Knowhow
 The amount of the query per second: Realm( 31 )>SQLite( 14 )
